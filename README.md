@@ -14,6 +14,7 @@ Just for fun :-)
 docker build -t USERNAME_HERE/ponysay .
 docker push USERNAME_HERE/ponysay
 
-# Run
 
-See the `dockerconf.sh` file.
+# run
+
+docker run -it --rm --name ponysay "your text here"
